@@ -55,7 +55,7 @@ let decideWinner = function() {
 	if (!gameOver) {
     if (isChampion(you)) {
       gameOver = true
-      alert("AAA")
+      alert("ANDA MENANG!")
     } else if (isChampion(computer)) {
       gameOver = true
       alert("GG EZ BOUS, COMPUTER MENANG")
